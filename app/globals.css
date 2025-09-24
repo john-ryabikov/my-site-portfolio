@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  a {
+    @apply no-underline;
+  }
+  p {
+    @apply m-0;
+  }
+  button {
+    @apply bg-[none] border-[none] p-0 ;
+  }
+  img {
+    @apply max-w-none
+  }
+  .wrapper {
+    @apply relative w-full xl:w-[1180px] mx-auto px-5 xl:px-0;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+.brif-labels input:checked ~ .brif-labels__radio img {
+  opacity: 1;
+  transition: all 0.4s;
+}
