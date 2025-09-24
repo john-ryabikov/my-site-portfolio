@@ -2,21 +2,19 @@ import { useState, useEffect } from "react"
 
 export const useMediaQuery = () => { 
 
-    const [width, setWidth] = useState(0); 
+    const [width, setWidth] = useState(0) 
 
     const handleWindowSizeChange = () => { 
-        setWidth(window.innerWidth); 
+        setWidth(window.innerWidth) 
     }; 
   
     useEffect(() => { 
-        handleWindowSizeChange(); 
-  
-        window.addEventListener("resize", handleWindowSizeChange); 
-  
+        handleWindowSizeChange()
+        window.addEventListener("resize", handleWindowSizeChange)
         return () => { 
-            window.removeEventListener("resize", handleWindowSizeChange); 
-        }; 
-    }, []); 
+            window.removeEventListener("resize", handleWindowSizeChange) 
+        }
+    }, []) 
   
-    return width <= 1023; 
+    return width <= 1023 
 }    
