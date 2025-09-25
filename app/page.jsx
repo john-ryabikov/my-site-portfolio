@@ -36,7 +36,7 @@ export default function Home() {
           <p className='relative w-[360px] pb-2 border-b-[1px] border-white border-opacity-20 uppercase tracking-[0.2em] font-semibold text-sm mt-[600px] xl:mt-16'>Автор проектов:</p>
           <Author/>
         </InfoBox>
-        <img className='absolute w-[860px] xl:w-[1060px] top-[520px] xl:top-[370px] xl:-translate-y-1/2 xl:right-[-200px] z-[-1]' src="img/Section-1/title_img.png" alt="Section-1-fon"/>
+        <img className='absolute w-[860px] xl:w-[1060px] top-[520px] xl:top-[370px] xl:-translate-y-1/2 xl:right-[-200px] z-[-1]' src="/img/Section-1/title_img.png" alt="Section-1-fon"/>
       </div>
     </SectionAnimated>
   );
