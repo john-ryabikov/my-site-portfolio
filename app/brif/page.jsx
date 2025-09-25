@@ -6,7 +6,7 @@ const Brif = () => {
 
     return (
         <SectionAnimated classSection='relative w-full xl:h-screen pt-[140px] xl:pt-0 pb-20 xl:pb-0 flex flex-col items-center justify-center'>
-            <img className='absolute xl:w-[1060px] top-0 xl:top-1/2 xl:-translate-y-1/2 left-0' src="img/Section-3/back-fon.svg" alt=""/>
+            <img className='absolute xl:w-[1060px] top-0 xl:top-1/2 xl:-translate-y-1/2 left-0' src="/img/Section-3/back-fon.svg" alt=""/>
             <div className='wrapper flex flex-col xl:flex-row items-center justify-start xl:justify-between'>
                 <InfoBox>
                     <h5 className='relative w-screen xl:w-full font-title text-center xl:text-start text-[38px] xl:text-[62px] font-normal mb-2 pt-[60px] xl:pt-[60px]'>Cформируйте задание</h5>
