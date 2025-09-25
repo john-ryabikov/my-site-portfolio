@@ -7,17 +7,17 @@ export const Alerts = () => {
     const alerts = [
         {
           showAlert: showAlertForm,
-          icon: "img/Alerts/done.svg",
+          icon: "/img/Alerts/done.svg",
           text: "Заявка успешно отправлена!"
         },
         {
           showAlert: showAlertBrif,
-          icon: "img/Alerts/done.svg",
+          icon: "/img/Alerts/done.svg",
           text: "Заявка успешно отправлена!"
         },
         {
           showAlert: showAlertError,
-          icon: "img/Alerts/warning.svg",
+          icon: "/img/Alerts/warning.svg",
           text: "Не все данные введены!"
         },
     ]
