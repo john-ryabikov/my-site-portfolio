@@ -24,7 +24,7 @@ const Header = () => {
                     <img src="/img/Icons/brif_icon.svg" alt=""/>
                 </Link>
                 <button className='relative block xl:hidden' onClick={openMenu}>
-                    <img src="img/Header/menu-btn.svg" alt="Menu"/>
+                    <img src="/img/Header/menu-btn.svg" alt="Menu"/>
                 </button>
                 <MenuNav open={showMenu} close={openMenu}/>
             </div>
