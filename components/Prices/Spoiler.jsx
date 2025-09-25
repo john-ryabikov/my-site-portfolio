@@ -34,7 +34,7 @@ export default function Spoiler({ list }) {
             <ul className='relative flex flex-col items-start justify-start py-3' ref={itemRef}>
                 {list.options.map((option, i) => (
                     <li className='relative flex flex-row items-start justify-start text-sm xl:text-base font-light text-[#ffffffb3] mb-2 xl:mb-4 last:mb-0' key={i}>
-                        <img className='relative top-[8px] mr-[14px]' src="img/Section-5/label_icon.svg" alt="Label"/>
+                        <img className='relative top-[8px] mr-[14px]' src="/img/Section-5/label_icon.svg" alt="Label"/>
                         <span>{option}</span>
                     </li>
                 ))}
