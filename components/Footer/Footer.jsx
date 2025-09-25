@@ -11,7 +11,7 @@ const Footer = () => {
             </p>
             <p className='relative flex flex-row items-start justify-start'>
                 <span className='realtive text-[20px] font-thin text-start tracking-[0.78px] mr-[6px]'>Powered by</span>
-                <img className='ml-2 w-[110px]' src="img/Footer/next_icon.svg" alt="Next.js"/>
+                <img className='ml-2 w-[110px]' src="/img/Footer/next_icon.svg" alt="Next.js"/>
             </p>
         </div>
     </FooterAnimated>
