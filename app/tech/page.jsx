@@ -6,35 +6,35 @@ import { ButtonUI } from "@/components/ButtonUI/ButtonUI";
 const webIcons = [
   {
     id: 1,
-    icon: "img/Section-2/html_img.svg",
+    icon: "/img/Section-2/html_img.svg",
   },
   {
     id: 2,
-    icon: "img/Section-2/css_img.svg",
+    icon: "/img/Section-2/css_img.svg",
   },
   {
     id: 3,
-    icon: "img/Section-2/js_img.svg",
+    icon: "/img/Section-2/js_img.svg",
   },
   {
     id: 4,
-    icon: "img/Section-2/ts_img.svg",
+    icon: "/img/Section-2/ts_img.svg",
   },
   {
     id: 5,
-    icon: "img/Section-2/react_img.svg",
+    icon: "/img/Section-2/react_img.svg",
   },
   {
     id: 6,
-    icon: "img/Section-2/next_img.svg",
+    icon: "/img/Section-2/next_img.svg",
   },
   {
     id: 7,
-    icon: "img/Section-2/tail_img.svg",
+    icon: "/img/Section-2/tail_img.svg",
   },
   {
     id: 8,
-    icon: "img/Section-2/figma_img.svg",
+    icon: "/img/Section-2/figma_img.svg",
   }
 ]
 
@@ -42,7 +42,7 @@ const Section2 = () => {
 
     return (
       <SectionAnimated classSection='relative w-full xl:h-screen pt-[140px] xl:pt-0 pb-[200px] xl:pb-0 flex flex-col items-center justify-center'>
-        <img className='absolute xl:w-[1060px] top-[280px] xl:top-1/2 xl:-translate-y-1/2 left-0' src="img/Section-3/back-fon.svg" alt=""/>
+        <img className='absolute xl:w-[1060px] top-[280px] xl:top-1/2 xl:-translate-y-1/2 left-0' src="/img/Section-3/back-fon.svg" alt=""/>
         <div className='wrapper flex flex-col xl:flex-row items-center justify-start xl:justify-between'>
           <InfoBox>
             <h2 className='relative w-full font-title text-center xl:text-start text-[44px] xl:text-[66px] font-normal mb-2 pt-[46px] xl:pt-[60px]'>Веб-технологии</h2>
