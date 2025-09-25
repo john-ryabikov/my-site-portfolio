@@ -3,19 +3,19 @@ const steps = [
         id: 1,
         title: 'Шаг 1',
         text: 'Составляете бриф на сайте и отправляете его на согласование, либо просто связываетесь через месенджеры, указанные на сайте, для составления тех. задания.',
-        label: "img/Section-4/step_icon1.svg"
+        label: "/img/Section-4/step_icon1.svg"
     },
     {
         id: 2,
         title: 'Шаг 2',
         text: <span>Разрабатываем дизайн-макет сайта или согласовываем его, далее вносим правки, если это требуется, и <b className="text-[#ffffff]">оплачиваем 50%</b> от стоимости услуги.</span>,
-        label: "img/Section-4/step_icon2.svg"
+        label: "/img/Section-4/step_icon2.svg"
     },
     {
         id: 3,
         title: 'Шаг 3',
         text: <span>Делаем верстку и проводим тестирование сайта на тех. домене, вносим правки, если это требуется, далее размещаем сайт на хостинге и после <b className="text-[#ffffff]">оплачиваем остальные 50%</b> стоимости услуги.</span>,
-        label: "img/Section-4/step_icon3.svg"
+        label: "/img/Section-4/step_icon3.svg"
     }
 ]
 
