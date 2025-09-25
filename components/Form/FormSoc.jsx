@@ -3,17 +3,17 @@ import Link from "next/link"
 const socies = [
     {
         id: 1,
-        icon: "img/Icons/vk_icon.svg",
+        icon: "/img/Icons/vk_icon.svg",
         href: 'https://vk.com/john_ryabikov'
     },
     {
         id: 2,
-        icon: "img/Icons/tg_icon.svg",
+        icon: "/img/Icons/tg_icon.svg",
         href: 'https://t.me/john_ryabikov'
     },
     {
         id: 3,
-        icon: "img/Icons/mail_icon.svg",
+        icon: "/img/Icons/mail_icon.svg",
         href: 'mailto:zhenya.ryabikov@mail.ru'
     }
 ]
