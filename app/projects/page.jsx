@@ -16,7 +16,7 @@ const projects = [
     type: "Сайт-визитка",
     desc: "Разработан лёгкий и красивый дизайн сайта с элементами анимации и слайдерами, добавлено несколько форм обратной связи для сбора данных посетителей сайта, внедрен виджет мессенджера \"ВКонтакте\" для мгновенной прямой связи с консультантом, адаптивный дизайн под любой экран монитора или гаджета,также встроена простая админ.панель для редактирования контента сайта.",
     stacks: [{name: "HTML", icon: "img/Icons/Stacks/html-stack_icon.svg"}, {name: "SCSS", icon: "img/Icons/Stacks/scss-stack_icon.svg"}, {name: "JQuery", icon: "img/Icons/Stacks/jq-stack_icon.svg"}],
-    preview: "img/Projects/proj_1.png",
+    preview: "img/Projects/proj_1.webp",
     href: "https://prtravel.ru"
   },
   {
