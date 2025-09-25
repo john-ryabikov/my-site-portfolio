@@ -3,22 +3,22 @@ import Link from "next/link"
 const soc_links = [
     {
         id: 1,
-        icon: "img/Icons/vk_icon.svg",
+        icon: "/img/Icons/vk_icon.svg",
         href: "https://vk.com/john_ryabikov"
     },
     {
         id: 2,
-        icon: "img/Icons/tg_icon.svg",
+        icon: "/img/Icons/tg_icon.svg",
         href: "https://t.me/john_ryabikov"
     },
     {
         id: 3,
-        icon: "img/Icons/gh_icon.svg",
+        icon: "/img/Icons/gh_icon.svg",
         href: "https://github.com/john-ryabikov"
     },
     {
         id: 4,
-        icon: "img/Icons/mail_icon.svg",
+        icon: "/img/Icons/mail_icon.svg",
         href: "mailto:zhenya.ryabikov@mail.ru"
     }
 ]
@@ -28,7 +28,7 @@ const Author = () => {
   return (
     <div className='relative w-[360px] flex flex-row items-center justify-between mt-5'>
       <div className='relative w-[120px] h-[120px] border-[1px] border-[#73A2FF] rounded-full flex flex-col items-center justify-center p-[10px]'>
-        <img className='w-full' src="img/Section-1/author_img.png" alt=""/>
+        <img className='w-full' src="/img/Section-1/author_img.png" alt=""/>
       </div>
       <div className='relative w-[210px] flex flex-col items-start justify-center'>
         <p className='relative font-title font-normal text-xl text-start'>Евгений Рябиков</p>
