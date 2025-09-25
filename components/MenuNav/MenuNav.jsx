@@ -40,7 +40,7 @@ const MenuNav = ({open, close}) => {
             className='absolute top-[30px] left-[30px]'
             onClick={() => {close()}}
         >
-            <img src="img/Icons/close_icon.svg" alt="Close"/>
+            <img src="/img/Icons/close_icon.svg" alt="Close"/>
         </button>
         {links.map((menu_link, i) => (
             <Link 
