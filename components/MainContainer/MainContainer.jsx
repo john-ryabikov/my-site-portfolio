@@ -13,7 +13,7 @@ const MainContainer = ({children}) => {
         <main className={`relative w-screen flex flex-col items-center justify-start xl:justify-center overflow-x-hidden`}>
             <Alerts/>
             {children}
-            {pathname === "/contacts" && <Footer/>}
+            {pathname === "/contacts/" && <Footer/>}
         </main>
     )
 }
