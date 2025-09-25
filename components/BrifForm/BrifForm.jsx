@@ -153,7 +153,7 @@ const BrifForm = () => {
                                 value={type}
                             />
                             <div className='brif-labels__radio absolute top-0 left-0 w-[36px] h-[36px] flex flex-col items-center justify-center rounded-[10px] border border-[#73A2FF] pl-5 pb-[10px] mr-3'>
-                                <img className='relative opacity-0' src="img/Icons/checked_icon.svg" alt=""/>
+                                <img className='relative opacity-0' src="/img/Icons/checked_icon.svg" alt=""/>
                             </div>
                             {type}
                         </label>
@@ -177,7 +177,7 @@ const BrifForm = () => {
                                 value={type}
                             />
                             <div className='brif-labels__radio absolute top-0 left-0 w-[36px] h-[36px] flex flex-col items-center justify-center rounded-[10px] border border-[#73A2FF] pl-5 pb-[10px] mr-3'>
-                                <img className='relative opacity-0' src="img/Icons/checked_icon.svg" alt=""/>
+                                <img className='relative opacity-0' src="/img/Icons/checked_icon.svg" alt=""/>
                             </div>
                             {type}
                         </label>
@@ -201,7 +201,7 @@ const BrifForm = () => {
                                 value={type}
                             />
                             <div className='brif-labels__radio absolute top-0 left-0 w-[36px] h-[36px] flex flex-col items-center justify-center rounded-[10px] border border-[#73A2FF] pl-5 pb-[10px] mr-3'>
-                                <img className='relative opacity-0' src="img/Icons/checked_icon.svg" alt=""/>
+                                <img className='relative opacity-0' src="/img/Icons/checked_icon.svg" alt=""/>
                             </div>
                             {type}
                         </label>
@@ -225,7 +225,7 @@ const BrifForm = () => {
                                 value={type}
                             />
                             <div className='brif-labels__radio absolute top-0 left-0 w-[36px] h-[36px] flex flex-col items-center justify-center rounded-[10px] border border-[#73A2FF] pl-5 pb-[10px] mr-3'>
-                                <img className='relative opacity-0' src="img/Icons/checked_icon.svg" alt=""/>
+                                <img className='relative opacity-0' src="/img/Icons/checked_icon.svg" alt=""/>
                             </div>
                             {type}
                         </label>
