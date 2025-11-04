@@ -3,6 +3,7 @@
 import FormSoc from './FormSoc';
 import Link from 'next/link';
 
+import { useState } from 'react';
 import { useForm } from 'react-hook-form';
 import { ButtonUI } from '../ButtonUI/ButtonUI';
 
@@ -15,6 +16,8 @@ const CHAT_ID = "-1002063310192";
 const URI_API = `https://api.telegram.org/bot${TOKEN}/sendMessage`;
 
 const Form = () => {
+
+    const [approval, setApproval] = useState(false)
 
     const {register, handleSubmit, reset} = useForm()
 
@@ -78,13 +81,21 @@ const Form = () => {
                 {...register('msg')}
             />
             <div className='relative w-full flex flex-col xl:flex-row items-center justify-start xl:justify-between'>
-                <ButtonUI name="btn-form" classButton="relative h-[60px] flex flex-row items-center justify-center px-[30px] font-title text-sm tracking-[0.26em] overflow-hidden cursor-pointer group">
+                <ButtonUI classButton="relative h-[60px] flex flex-row items-center justify-center px-[30px] font-title text-sm tracking-[0.26em] overflow-hidden cursor-pointer group" name="btn-form" approval={approval}>
                     <span className='relative w-[180px] uppercase z-0'>Отправить вопрос</span>
                 </ButtonUI>
                 <FormSoc/>
             </div>
-            <p className='relative w-full mt-9 text-center text-sm font-light leading-[130%] tracking-[0.45px] text-[#B2B5BA]'>
-                Оставляя заявку, Вы соглашаетесь с условиями<br/>обработки <Link className='relative underline transition-all hover:opacity-40 text-[#ffffff]' href="blanks/Согласие на обработку персональных данных.pdf" target="_blank" rel="noreferrer">персональных данных</Link>
+            <p className='relative w-full flex flex-row items-center justify-start gap-3 mt-9'>
+                <input
+                    className='input-check'
+                    checked={approval}
+                    onChange={(e) => setApproval(e.target.checked)} 
+                    type="checkbox" 
+                />
+                <span className='relative text-start text-sm font-light leading-[130%] tracking-[0.45px] text-[#B2B5BA]'>
+                    Оставляя заявку, Вы соглашаетесь с условиями<br/><Link className='relative underline transition-all hover:opacity-40 text-[#ffffff]' href="/blanks/Согласие на обработку персональных данных.pdf" target="_blank">обработки персональных данных</Link>
+                </span>
             </p>
         </form>
     )

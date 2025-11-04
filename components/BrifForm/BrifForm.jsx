@@ -21,6 +21,7 @@ const BrifForm = () => {
 
   const [slidePos, setSlidePos] = useState(0)
   const [step, setStep] = useState(1)
+  const [approval, setApproval] = useState(false)
 
   const {register, handleSubmit, reset} = useForm()
 
@@ -280,14 +281,22 @@ const BrifForm = () => {
                     placeholder="+7-123-456-78-90"
                     {...register('user_phone')}
                   />
-                  <ButtonUI classButton="relative h-[60px] flex flex-row items-center justify-center px-[30px] font-title text-sm tracking-[0.26em] overflow-hidden cursor-pointer group" name="btn-send">
+                  <ButtonUI classButton="relative h-[60px] flex flex-row items-center justify-center px-[30px] font-title text-sm tracking-[0.26em] overflow-hidden cursor-pointer group" name="brif-send" approval={approval}>
                     <span className='relative w-[150px] uppercase z-0'>Отправить бриф</span>
                   </ButtonUI>
                 </div>
               </div>
           </form>
-          <p className='relative w-full mt-9 text-[#B2B5BA] text-center text-sm font-extralight leading-[130%] tracking-[0.45px]'>
-              Отправляя бриф, Вы соглашаетесь с условиями<br/>обработки <Link className='relative font-light text-white underline transition-all hover:opacity-40' href="blanks/Согласие на обработку персональных данных.pdf">персональных данных</Link>
+          <p className='relative w-full flex flex-row items-center justify-start gap-3 mt-9'>
+              <input
+                  className='input-check'
+                  checked={approval}
+                  onChange={(e) => setApproval(e.target.checked)} 
+                  type="checkbox" 
+              />
+              <span className='relative text-start text-sm font-light leading-[130%] tracking-[0.45px] text-[#B2B5BA]'>
+                  Отправляя бриф, Вы соглашаетесь с условиями<br/><Link className='relative underline transition-all hover:opacity-40 text-[#ffffff]' href="/blanks/Согласие на обработку персональных данных.pdf" target="_blank">обработки персональных данных</Link>
+              </span>
           </p>
       </div>
   )

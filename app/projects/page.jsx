@@ -14,8 +14,8 @@ const projects = [
     id: 1,
     name: "PARADISE TRAVEL",
     type: "Сайт-визитка",
-    desc: "Разработан лёгкий и красивый дизайн сайта с элементами анимации и слайдерами, добавлено несколько форм обратной связи для сбора данных посетителей сайта, внедрен виджет мессенджера \"ВКонтакте\" для мгновенной прямой связи с консультантом, адаптивный дизайн под любой экран монитора или гаджета,также встроена простая админ.панель для редактирования контента сайта.",
-    stacks: [{name: "HTML", icon: "/img/Icons/Stacks/html-stack_icon.svg"}, {name: "SCSS", icon: "/img/Icons/Stacks/scss-stack_icon.svg"}, {name: "JQuery", icon: "/img/Icons/Stacks/jq-stack_icon.svg"}],
+    desc: "Разработан лёгкий и красивый дизайн сайта с элементами анимации и слайдерами, есть рабочая форма обратной связи для сбора данных посетителей сайта, видеофон для первого блока, внедрен виджет мессенджера \"ВКонтакте\" для мгновенной прямой связи с консультантом, адаптивный дизайн под любой экран монитора или гаджета, также встроена простая админ.панель для редактирования контента сайта.",
+    stacks: [{name: "Next.js", icon: "/img/Icons/Stacks/next-stack_icon.svg"}, {name: "SCSS", icon: "/img/Icons/Stacks/scss-stack_icon.svg"}, {name: "Framer Motion", icon: "/img/Icons/Stacks/motion-stack_icon.svg"}],
     preview: "/img/Projects/proj_1.webp",
     href: "https://prtravel.ru"
   },
@@ -25,7 +25,7 @@ const projects = [
     type: "Лендинг",
     desc: "Разработан индивидуальный дизайн сайта, добавлена легкая анимация блоков с помощью библиотеки \"Framer Motion\", мобильное меню. Добавлены формы обратной связи для сбора данных посетителей сайта, адаптивный дизайн под любой экран монитора или гаджета. Также встроена простая админ.панель для редактирования контента сайта.",
     stacks: [{name: "Next.js", icon: "/img/Icons/Stacks/next-stack_icon.svg"}, {name: "SCSS", icon: "/img/Icons/Stacks/scss-stack_icon.svg"}, {name: "Framer Motion", icon: "/img/Icons/Stacks/motion-stack_icon.svg"}], 
-    preview: "/img/Projects/proj_2.png",
+    preview: "/img/Projects/proj_2.webp",
     href: "https://vibrostol-plitka.ru"
   },
   {
@@ -34,38 +34,20 @@ const projects = [
     type: "Сайт-визитка",
     desc: "Разработан индивидуальный дизайн сайта с элементами анимации, меню и слайдером, добавлены формы обратной связи для сбора данных посетителей сайта, адаптивность под любой экран монитора или гаджета, также встроена простая админ.панель для редактирования контента сайта.",
     stacks: [{name: "HTML", icon: "/img/Icons/Stacks/html-stack_icon.svg"}, {name: "SCSS", icon: "/img/Icons/Stacks/scss-stack_icon.svg"}, {name: "JQuery", icon: "/img/Icons/Stacks/jq-stack_icon.svg"}],
-    preview: "/img/Projects/proj_3.png",
+    preview: "/img/Projects/proj_3.webp",
     href: "https://podborautos.ru"
   },
   {
     id: 4,
-    name: "ДЛЯ ФОТОГРАФА",
+    name: "САЙТ ДЛЯ ФОТОГРАФА",
     type: "Сайт-портфолио",
     desc: "Разработан индивидуальный дизайн сайта, меню и галерея с категориями фотографий, добавлена форма обратной связи для записи на съемки и сбора информации посетителя сайта, адаптивность под любой экран монитора или гаджета.",
     stacks: [{name: "Next.js", icon: "/img/Icons/Stacks/next-stack_icon.svg"}, {name: "SCSS", icon: "/img/Icons/Stacks/scss-stack_icon.svg"}],
-    preview: "/img/Projects/proj_4.png",
+    preview: "/img/Projects/proj_4.webp",
     href: "https://photograph-eight.vercel.app/"
   },
   {
     id: 5,
-    name: "ОНЛАЙН-ТУРАГЕНТ",
-    type: "Лендинг",
-    desc: "Разработан индивидуальный дизайн сайта, добавлены кнопки для записи через мессенджер на курсы, адаптивность под любой экран монитора или гаджета, также встроена простая админ.панель для редактирования контента сайта.",
-    stacks: [{name: "HTML", icon: "/img/Icons/Stacks/html-stack_icon.svg"}, {name: "SCSS", icon: "/img/Icons/Stacks/scss-stack_icon.svg"}, {name: "JQuery", icon: "/img/Icons/Stacks/jq-stack_icon.svg"}],
-    preview: "/img/Projects/proj_5.png",
-    href: "https://svetbali.ru"
-  },
-  {
-    id: 6,
-    name: "АВРОРА",
-    type: "Сайт-визитка",
-    desc: "Разработан лёгкий и красивый дизайн сайта + слайдеры, добавлены кнопки для связи через мессенджеры, адаптивность под любой экран монитора или гаджета.",
-    stacks: [{name: "HTML", icon: "/img/Icons/Stacks/html-stack_icon.svg"}, {name: "SCSS", icon: "/img/Icons/Stacks/scss-stack_icon.svg"}, {name: "JQuery", icon: "/img/Icons/Stacks/jq-stack_icon.svg"}, {name: "PHP", icon: "img/Icons/Stacks/php-stack_icon.svg"}],
-    preview: "/img/Projects/proj_6.png",
-    href: "https://cx48113.tmweb.ru"
-  },
-  {
-    id: 7,
     name: "GIFT-BOX ELSTAL",
     type: "Дизайн-сайта",
     desc: "Разработан индивидуальный дизайн-макет сайта, учтены возможность собрать свой собсвтенный готовый продукт и форма обратной связи.",
@@ -74,34 +56,34 @@ const projects = [
     href: "blanks/Gift-box-elstal.pdf"
   },
   {
-    id: 8,
+    id: 6,
     name: "FEATHER",
     type: "Интернет-магазин",
     desc: "Разработан индивидуальный дизайн сайта, навигация, меню и галерея с выбором товара, встроенная корзина с возможностями: изменение количества товара и подсчет общей суммы, удаления товара из корзины, очищения корзины полностью. Адаптивность под любой экран монитора или гаджета.",
     stacks: [{name: "React.js", icon: "/img/Icons/Stacks/react-stack_icon.svg"}, {name: "SCSS", icon: "/img/Icons/Stacks/scss-stack_icon.svg"}, {name: "Redux", icon: "/img/Icons/Stacks/redux-stack_icon.svg"}],
-    preview: "/img/Projects/proj_9.png",
+    preview: "/img/Projects/proj_9.webp",
     href: "https://john-ryabikov.github.io/feather-shop/"
   },
   {
-    id: 9,
+    id: 7,
     name: "STUDY LESSONS",
     type: "Учебная платформа",
     desc: "Разработан индивидуальный дизайн сайта, меню с выбором модуля и отдельных в нем уроков, имеется рабочая форма авторизации для входа на платформу (посетители, имеющие доступ к сайту, смогут войти на него) и рабочая форма регистрации для получения доступа входа на платформу (посетители, имеющие уникальный код, смогут зарегистрироваться на платформе), адаптивность под любой экран монитора или гаджета.",
     stacks: [{name: "Next.js", icon: "/img/Icons/Stacks/next-stack_icon.svg"}, {name: "SCSS", icon: "/img/Icons/Stacks/scss-stack_icon.svg"}, {name: "Next-Auth", icon: "/img/Icons/Stacks/auth-stack_icon.svg"}, {name: "Prisma", icon: "/img/Icons/Stacks/prisma-stack_icon.svg"}],
-    preview: "/img/Projects/proj_10.png",
+    preview: "/img/Projects/proj_10.webp",
     href: "https://study-lessons-platform.vercel.app/"
   },
   {
-    id: 10,
-    name: "Маркетинг WB",
+    id: 8,
+    name: "Сайт маркетинга",
     type: "Сайт-визитка",
     desc: "Разработан индивидуальный дизайн сайта, адаптивность под любой экран монитора или гаджета, добавлены видео с оптимизацией загрузки через библиотеку \"React Player\", добавлена легкая анимация блоков с помощью библиотеки \"Framer Motion\".",
     stacks: [{name: "Next.js", icon: "/img/Icons/Stacks/next-stack_icon.svg"}, {name: "Tailwind", icon: "/img/Icons/Stacks/tail-stack_icon.svg"}, {name: "Framer Motion", icon: "/img/Icons/Stacks/motion-stack_icon.svg"}],
-    preview: "/img/Projects/proj_11.png",
-    href: "https://kreativniy-marketing.vercel.app/"
+    preview: "/img/Projects/proj_11.webp",
+    href: "https://kreativniy-marketing.site/"
   },
   {
-    id: 11,
+    id: 9,
     name: "Pokemons Game",
     type: "Telegram App",
     desc: "Разработан индивидуальный дизайн игры, адаптивность под любой экран монитора или гаджета, анимация действий, кнопок и переходов с помощью библиотеки \"Framer Motion\", сохранение данных игры.",

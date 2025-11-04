@@ -18,6 +18,9 @@
   .wrapper {
     @apply relative w-full xl:w-[1180px] mx-auto px-5 xl:px-0;
   }
+  .input-check {
+    @apply relative appearance-none w-5 h-5 border rounded cursor-pointer border-solid border-[#73A2FF] checked:border-[#73A2FF] checked:bg-[url("/img/Icons/checked-small\_icon.svg")] checked:bg-no-repeat checked:bg-center;
+  }
 }
 
 @layer utilities {
