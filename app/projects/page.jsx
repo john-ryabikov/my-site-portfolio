@@ -12,7 +12,7 @@ import "swiper/css"
 const projects = [
   {
     id: 1,
-    name: "PARADISE TRAVEL",
+    name: "САЙТ ТУРАГЕНТСТВА",
     type: "Сайт-визитка",
     desc: "Разработан лёгкий и красивый дизайн сайта с элементами анимации и слайдерами, есть рабочая форма обратной связи для сбора данных посетителей сайта, видеофон для первого блока, внедрен виджет мессенджера \"ВКонтакте\" для мгновенной прямой связи с консультантом, адаптивный дизайн под любой экран монитора или гаджета, также встроена простая админ.панель для редактирования контента сайта.",
     stacks: [{name: "Next.js", icon: "/img/Icons/Stacks/next-stack_icon.svg"}, {name: "SCSS", icon: "/img/Icons/Stacks/scss-stack_icon.svg"}, {name: "Framer Motion", icon: "/img/Icons/Stacks/motion-stack_icon.svg"}],
@@ -23,7 +23,7 @@ const projects = [
     id: 2,
     name: "ВИБРОСТОЛЫ КАРЕЛИЯ",
     type: "Лендинг",
-    desc: "Разработан индивидуальный дизайн сайта, добавлена легкая анимация блоков с помощью библиотеки \"Framer Motion\", мобильное меню. Добавлены формы обратной связи для сбора данных посетителей сайта, адаптивный дизайн под любой экран монитора или гаджета. Также встроена простая админ.панель для редактирования контента сайта.",
+    desc: "Разработан индивидуальный дизайн сайта, добавлена легкая анимация блоков, мобильное меню. Добавлены формы обратной связи для сбора данных посетителей сайта, адаптивный дизайн под любой экран монитора или гаджета. Также встроена простая админ.панель для редактирования контента сайта.",
     stacks: [{name: "Next.js", icon: "/img/Icons/Stacks/next-stack_icon.svg"}, {name: "SCSS", icon: "/img/Icons/Stacks/scss-stack_icon.svg"}, {name: "Framer Motion", icon: "/img/Icons/Stacks/motion-stack_icon.svg"}], 
     preview: "/img/Projects/proj_2.webp",
     href: "https://vibrostol-plitka.ru"
@@ -48,7 +48,7 @@ const projects = [
   },
   {
     id: 5,
-    name: "GIFT-BOX ELSTAL",
+    name: "САЙТ ПОДАРКОВ",
     type: "Дизайн-сайта",
     desc: "Разработан индивидуальный дизайн-макет сайта, учтены возможность собрать свой собсвтенный готовый продукт и форма обратной связи.",
     stacks: [{name: "Figma", icon: "/img/Icons/Stacks/figma-stack_icon.svg"}],
@@ -66,8 +66,8 @@ const projects = [
   },
   {
     id: 7,
-    name: "STUDY LESSONS",
-    type: "Учебная платформа",
+    name: "УЧЕБНАЯ ВИДЕОПЛАТФОРМА",
+    type: "Веб-приложение",
     desc: "Разработан индивидуальный дизайн сайта, меню с выбором модуля и отдельных в нем уроков, имеется рабочая форма авторизации для входа на платформу (посетители, имеющие доступ к сайту, смогут войти на него) и рабочая форма регистрации для получения доступа входа на платформу (посетители, имеющие уникальный код, смогут зарегистрироваться на платформе), адаптивность под любой экран монитора или гаджета.",
     stacks: [{name: "Next.js", icon: "/img/Icons/Stacks/next-stack_icon.svg"}, {name: "SCSS", icon: "/img/Icons/Stacks/scss-stack_icon.svg"}, {name: "Next-Auth", icon: "/img/Icons/Stacks/auth-stack_icon.svg"}, {name: "Prisma", icon: "/img/Icons/Stacks/prisma-stack_icon.svg"}],
     preview: "/img/Projects/proj_10.webp",
@@ -75,18 +75,18 @@ const projects = [
   },
   {
     id: 8,
-    name: "Сайт маркетинга",
+    name: "САЙТ МАРКЕТИНГА",
     type: "Сайт-визитка",
-    desc: "Разработан индивидуальный дизайн сайта, адаптивность под любой экран монитора или гаджета, добавлены видео с оптимизацией загрузки через библиотеку \"React Player\", добавлена легкая анимация блоков с помощью библиотеки \"Framer Motion\".",
+    desc: "Разработан индивидуальный дизайн сайта, адаптивность под любой экран монитора или гаджета, добавлены видео с оптимизацией загрузки, добавлена легкая анимация блоков.",
     stacks: [{name: "Next.js", icon: "/img/Icons/Stacks/next-stack_icon.svg"}, {name: "Tailwind", icon: "/img/Icons/Stacks/tail-stack_icon.svg"}, {name: "Framer Motion", icon: "/img/Icons/Stacks/motion-stack_icon.svg"}],
     preview: "/img/Projects/proj_11.webp",
-    href: "https://kreativniy-marketing.site/"
+    href: "https://kreativny-marketing.ru/"
   },
   {
     id: 9,
-    name: "Pokemons Game",
+    name: "КАРТОЧНАЯ МИНИ-ИГРА",
     type: "Telegram App",
-    desc: "Разработан индивидуальный дизайн игры, адаптивность под любой экран монитора или гаджета, анимация действий, кнопок и переходов с помощью библиотеки \"Framer Motion\", сохранение данных игры.",
+    desc: "Разработан индивидуальный дизайн игры, адаптивность под любой экран монитора или гаджета, встроенны анимации действий, кнопок и переходов, сохранение данных игры.",
     stacks: [{name: "React-Vite", icon: "/img/Icons/Stacks/vite-stack_icon.svg"}, {name: "Zustand", icon: "/img/Icons/Stacks/zus-stack_icon.svg"}, {name: "Framer Motion", icon: "/img/Icons/Stacks/motion-stack_icon.svg"}],
     preview: "/img/Projects/proj_12.png",
     href: "http://t.me/Pokemon_Game_26_Bot/PokemonGameApp"
