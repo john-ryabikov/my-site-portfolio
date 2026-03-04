@@ -66,7 +66,7 @@ const projects = [
   },
   {
     id: 7,
-    name: "УЧЕБНАЯ ВИДЕОПЛАТФОРМА",
+    name: "STUDY LESSONS",
     type: "Веб-приложение",
     desc: "Разработан индивидуальный дизайн сайта, меню с выбором модуля и отдельных в нем уроков, имеется рабочая форма авторизации для входа на платформу (посетители, имеющие доступ к сайту, смогут войти на него) и рабочая форма регистрации для получения доступа входа на платформу (посетители, имеющие уникальный код, смогут зарегистрироваться на платформе), адаптивность под любой экран монитора или гаджета.",
     stacks: [{name: "Next.js", icon: "/img/Icons/Stacks/next-stack_icon.svg"}, {name: "SCSS", icon: "/img/Icons/Stacks/scss-stack_icon.svg"}, {name: "Next-Auth", icon: "/img/Icons/Stacks/auth-stack_icon.svg"}, {name: "Prisma", icon: "/img/Icons/Stacks/prisma-stack_icon.svg"}],
@@ -84,7 +84,7 @@ const projects = [
   },
   {
     id: 9,
-    name: "КАРТОЧНАЯ МИНИ-ИГРА",
+    name: "МИНИ-ИГРА",
     type: "Telegram App",
     desc: "Разработан индивидуальный дизайн игры, адаптивность под любой экран монитора или гаджета, встроенны анимации действий, кнопок и переходов, сохранение данных игры.",
     stacks: [{name: "React-Vite", icon: "/img/Icons/Stacks/vite-stack_icon.svg"}, {name: "Zustand", icon: "/img/Icons/Stacks/zus-stack_icon.svg"}, {name: "Framer Motion", icon: "/img/Icons/Stacks/motion-stack_icon.svg"}],
