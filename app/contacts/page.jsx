@@ -11,7 +11,7 @@ const Section6 = () => {
           <InfoBox>
               <h4 className='relative w-screen xl:w-full font-title text-center xl:text-start text-[44px] xl:text-[66px] font-normal mb-2 pt-[46px] xl:pt-[60px]'>Остались вопросы?</h4>
               <p className='relative text-sm xl:text-lg text-[#ffffff59] mb-11 uppercase tracking-[0.4em]'>Оставьте заявку</p>
-              <p className='relative xl:w-[500px] text-center xl:text-start font-light text-sm xl:text-lg text-[#B2B5BA] mb-[60px]'>Свяжитесь со мной и мы сделаем с Вами эффективную целевую страницу, которая поможет Вашему бизнесу открыть "второе дыхание" и выйти на новый уровень!</p>
+              <p className='relative xl:w-[500px] text-center xl:text-start font-light text-sm xl:text-lg text-[#B2B5BA] mb-[60px]'>Свяжитесь со мной и мы сделаем с Вами эффективный сайт, который поможет Вашему бизнесу открыть "второе дыхание" и выйти на новый уровень!</p>
           </InfoBox>
           <Form/>
         </div>
