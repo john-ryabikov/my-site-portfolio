@@ -271,7 +271,7 @@ const BrifForm = () => {
                     className='relative text-lg font-light w-[99%] h-[60px] bg-inherit rounded-[15px] border border-[#73A2FF] pl-6 outline-none mb-4 last:mb-0' 
                     type="email" 
                     name="user_mail" 
-                    placeholder="Ваш email"
+                    placeholder="E-mail / Электронная почта"
                     {...register('user_mail')}
                   />
                   <input 
