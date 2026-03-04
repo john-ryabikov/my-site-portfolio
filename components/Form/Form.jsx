@@ -69,7 +69,7 @@ const Form = () => {
             <input 
                 className='relative w-full h-[60px] font-light text-lg bg-inherit rounded-[15px] border border-[#73A2FF] pl-6 mb-[26px] outline-none' 
                 type="email" 
-                placeholder="Ваш Email" 
+                placeholder="E-mail / Электронная почта" 
                 name="user_mail" 
                 {...register('mail')} 
             />
