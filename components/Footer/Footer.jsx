@@ -10,7 +10,7 @@ const Footer = () => {
                 <a className='relative font-light text-center xl:text-start leading-[130%] tracking-[0.45px] underline transition-all hover:opacity-40' href="blanks/Политика конфиденциальности персональных данных.pdf" target="_blank" rel="noreferrer">Политика конфедициальности и обработка пресональных данных</a>
             </p>
             <p className='relative flex flex-row items-start justify-start'>
-                <span className='realtive text-[20px] font-thin text-start tracking-[0.78px] mr-[6px]'>Powered by</span>
+                <span className='realtive text-[20px] font-thin text-start tracking-[0.78px] mr-[6px]'>Разработано на</span>
                 <img className='ml-2 w-[110px]' src="/img/Footer/next_icon.svg" alt="Next.js"/>
             </p>
         </div>
