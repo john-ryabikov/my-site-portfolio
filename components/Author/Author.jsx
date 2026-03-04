@@ -32,7 +32,7 @@ const Author = () => {
       </div>
       <div className='relative w-[210px] flex flex-col items-start justify-center'>
         <p className='relative font-title font-normal text-xl text-start'>Евгений Рябиков</p>
-        <p className='relative uppercase text-[10px] opacity-35 tracking-[0.4em]'>Frontend-разработчик</p>
+        <p className='relative uppercase text-[10px] opacity-35 tracking-[0.4em]'>Разработчик сайтов</p>
         <div className='relative flex flex-row items-center justify-start mt-5'>
             {soc_links.map((soc_link) => (
                 <Link 
