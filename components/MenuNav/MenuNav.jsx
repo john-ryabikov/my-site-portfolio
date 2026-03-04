@@ -23,7 +23,7 @@ const links = [
     },
     {
         id: 5,
-        cont: "Прайс-лист",
+        cont: "Услуги",
         href: "/price"
     },
     {
